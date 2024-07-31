@@ -1,0 +1,22 @@
+.box
+{
+  margin: 24px;
+  width: 100px;
+  height: 200px;
+  background: red;
+  animation-name: box;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+
+@keyframes box {
+  0% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
